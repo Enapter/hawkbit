@@ -55,6 +55,8 @@
           <groupId>org.eclipse.hawkbit</groupId>
           <artifactId>hawkbit-extension-artifact-repository-s3</artifactId>
           <version>${project.version}</version>
+          <scope>system</scope>
+          <systemPath>${project.basedir}/src/main/resources/hawkbit-extension-artifact-repository-s3.jar</systemPath>
       </dependency>
       <dependency>
           <groupId>org.postgresql</groupId>

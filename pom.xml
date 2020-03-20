@@ -833,7 +833,7 @@
             <artifactId>hawkbit-extension-artifact-repository-s3</artifactId>
             <version>${project.version}</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/hawkbit-runtime/hawkbit-update-server/src/main/resources/hawkbit-extension-artifact-repository-s3.jar</systemPath>
+            <systemPath>${project.basedir}/hawkbit-extension-artifact-repository-s3.jar</systemPath>
          </dependency>
       </dependencies>
    </dependencyManagement>

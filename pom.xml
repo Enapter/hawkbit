@@ -828,6 +828,13 @@
             <artifactId>awaitility</artifactId>
             <version>${awaitility.version}</version>
          </dependency>
+         <dependency>
+            <groupId>org.eclipse.hawkbit</groupId>
+            <artifactId>hawkbit-extension-artifact-repository-s3</artifactId>
+            <version>${project.version}</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/hawkbit-runtime/hawkbit-update-server/src/main/resources/hawkbit-extension-artifact-repository-s3.jar</systemPath>
+         </dependency>
       </dependencies>
    </dependencyManagement>
 </project>

@@ -45,13 +45,6 @@
       </resources>
    </build>
 
-   <repositories>
-       <repository>
-           <id>lib-dir-repo</id>
-           <url>file://${project.basedir}/lib</url>
-       </repository>
-   </repositories>
-
    <dependencies>
       <dependency>
          <groupId>org.eclipse.hawkbit</groupId>

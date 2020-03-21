@@ -45,6 +45,13 @@
       </resources>
    </build>
 
+   <repositories>
+       <repository>
+           <id>lib-dir-repo</id>
+           <url>file://${project.basedir}/lib</url>
+       </repository>
+   </repositories>
+
    <dependencies>
       <dependency>
          <groupId>org.eclipse.hawkbit</groupId>
@@ -54,6 +61,11 @@
       <dependency>
           <groupId>org.postgresql</groupId>
           <artifactId>postgresql</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>org.eclipse.hawkbit</groupId>
+          <artifactId>hawkbit-extension-artifact-repository-s3</artifactId>
+          <version>SNAPSHOT</version>
       </dependency>
 
       <!-- Test -->
